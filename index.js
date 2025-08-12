@@ -74,3 +74,14 @@ ScrollReveal().reveal(".banner__card", {
   ...scrollRevealOption,
   interval: 500,
 });
+
+ScrollReveal().reveal(".discover__card", {
+  ...scrollRevealOption,
+  interval: 500,
+});
+
+const swiper = new Swiper(".swiper", {
+  slidesPerView: 3,
+  spaceBetween: 20,
+  loop: true,
+});
