@@ -44,3 +44,33 @@ ScrollReveal().reveal(".header__btns", {
   ...scrollRevealOption,
   delay: 1500,
 });
+
+ScrollReveal().reveal(".destination__card", {
+  ...scrollRevealOption,
+  interval: 500,
+});
+
+ScrollReveal().reveal(".showcase__image img", {
+  ...scrollRevealOption,
+  origin: "left",
+});
+
+ScrollReveal().reveal(".showcase__content h4", {
+  ...scrollRevealOption,
+  delay: 500,
+});
+
+ScrollReveal().reveal(".showcase__content p", {
+  ...scrollRevealOption,
+  delay: 1000,
+});
+
+ScrollReveal().reveal(".showcase__btn", {
+  ...scrollRevealOption,
+  delay: 1500,
+});
+
+ScrollReveal().reveal(".banner__card", {
+  ...scrollRevealOption,
+  interval: 500,
+});
